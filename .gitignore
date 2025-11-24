@@ -1,32 +1,48 @@
-# Python cache and compiled files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
 # Virtual environment
 venv/
 env/
+ENV/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
 
-# IDE settings
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Data files (optional: only ignore if you don't want to push large datasets)
-data/
-*.csv
-*.xlsx
+# OS
+.DS_Store
+Thumbs.db
 
-# Model outputs
+# Data files
+data/processed/
+models/
 results/
-*.pkl
 
 # Logs
 *.log
-
-# OS files
-.DS_Store
-Thumbs.db
